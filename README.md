@@ -22,5 +22,6 @@ Um módulo deve possuir um unico grupo de usuários. Um ator e deve mudar quando
 
 ocp - open/closed principle
 Aberto para extensão. Fechado para modificação.
-- As dependências transitivas violam o princípio geral de que as entidades de software não dependem de coisas que não usam diretamente
+- As dependências transitivas violam o princípio geral de que as entidades de software não dependem de coisas que não usam diretamente.
+-particionamos o sistema em componentes e organizamos esses componentes em uma hierarquia de dependência que proteja os componentes de nível mais alto das mudanças em componentes de nível mais baixo.
 
