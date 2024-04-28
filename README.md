@@ -15,12 +15,12 @@ Ainda assim é possível fazer uma bagunça com tijolos bem-feitos.
 
 Modulo: Um arquivo fonte.
 
-srp - single responsability
+# srp - single responsability
 Um módulo deve possuir um unico grupo de usuários. Um ator e deve mudar quando um grupo, ou ator exigir essa mudança. 
 ## Separar o código do qual diferentes atores dependem.
 ## separar o código que dá suporte a atores diferentes.
 
-ocp - open/closed principle
+# ocp - open/closed principle
 Aberto para extensão. Fechado para modificação.
 - As dependências transitivas violam o princípio geral de que as entidades de software não dependem de coisas que não usam diretamente.
 
